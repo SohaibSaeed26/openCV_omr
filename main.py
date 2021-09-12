@@ -7,14 +7,10 @@ import numpy as np
 ## Variables
 
 # Directory where scanned images of survey results are stored
-data_dir = "C:\Sohaib\personal_projects\omr\source_material\sample_filled"
+data_dir = "source_material\sample_filled"
 
 # TODO: Remove later
-data_file_1 = "answer1.png"
-data_file_2 = "answer2.png"
-data_file_3 = "answer3.png"
-data_file_4 = "answer4.png"
-data_file_5 = "answer5.png"
+data_file = "answer1.png"
 
 # Resizing parameters
 img_width = 500
@@ -23,12 +19,12 @@ img_height = 600
 ##############################################################################
 
 # Read the image
-img = cv2.imread(os.path.join(data_dir, data_file_1))
+img = cv2.imread(os.path.join(data_dir, data_file))
 
 # If image was successfully read - report to console
 # TODO: Put in loop for all images
 if(img.any()):
-    print("Read image: {}".format(data_file_1))
+    print("Read image: {}".format(data_file))
 
 # Resize image to display output (later)
 img = cv2.resize(img, (img_width, img_height))

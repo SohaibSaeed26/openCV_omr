@@ -131,6 +131,5 @@ dmypy.json
 #################################
 # User files:
 
-source_material/
-.gitignore
+
 
