@@ -1,0 +1,10 @@
+Gaussian Blur
+https://dsp.stackexchange.com/questions/10057/gaussian-blur-standard-deviation-radius-and-kernel-size
+https://www.youtube.com/watch?v=7LW_75E3A1Q&ab_channel=EasyLearnTutorial
+
+Other computer vision projects
+https://www.computervision.zone/projects/
+
+Reference Project for OMR
+https://github.com/murtazahassan/Optical-Mark-Recognition-OPENCV
+https://www.youtube.com/watch?v=0IqCOPlGBTs&ab_channel=Murtaza%27sWorkshop-RoboticsandAI
